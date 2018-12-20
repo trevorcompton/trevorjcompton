@@ -1,26 +1,16 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
+    <title>Wandr</title>
     <link rel="stylesheet" href="style.scss">
-    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
   </head>
   <body>
-    <header>
-      <h1>Wandr</h1>
-    </header>
-    <main>
-      <div class="map">
-      
-      </div>
-      <div class="playlist">
-      
-      </div>
-      <script src="engine.js"></script>
-      <div class="push"></div>
-    </main>
-    <footer>
-      <h3>Link bucket could go here</h3>
-    </footer>
-    </div>
+    <div id="map"></div>
+    <script src="engine.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBEfXky41RwD0uQhudkeAReFuc6XTO5CV4 &callback=initMap"
+    async defer></script>
   </body>
 </html>
