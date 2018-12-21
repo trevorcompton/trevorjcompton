@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Comfortaa');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+  margin: 0;
+  padding: 0;
+  line-height: 100px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#left h2 {
+  padding-left: 25px;
+}
+
+#center h2 {
+  width: 500px;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 100px;
+}
+
+#wrapper {
+  display: flex;
+}
+
+#map {
+  height: 500px;
+  width: 500px;
+}
+
+#music {
+  margin-top: 150px;
+  margin-left: 175px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
